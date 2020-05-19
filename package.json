@@ -1,5 +1,6 @@
 {
 	"name": "Cargo",
+	"version":"1.0.0",
 	"id": "cargo-plugin",
 	"mainSrc": "main.js",
 	"mainDev": "dist/main.js",
