@@ -1,0 +1,17 @@
+{
+	"name": "Cargo",
+	"id": "cargo-plugin",
+	"mainSrc": "main.js",
+	"mainDev": "dist/main.js",
+	"main": "main.js",
+	"scripts": {
+		"watch": "gvsdk --entry package.json --target plugin --mode dev",
+		"build": "gvsdk --entry package.json --target plugin --mode release"
+	},
+	"dependencies": {
+		"toml": "^3.0.0"
+	},
+	"devDependencies": {
+		"@gveditor/sdk": "^0.1.4"
+	},
+}

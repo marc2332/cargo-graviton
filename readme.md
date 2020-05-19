@@ -1,0 +1,1 @@
+Allows to inspect Cargo.toml structure from Graviton
