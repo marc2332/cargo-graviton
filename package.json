@@ -4,6 +4,7 @@
 	"id": "cargo-plugin",
 	"mainSrc": "main.js",
 	"mainDev": "dist/main.js",
+	"author": "Marc Espín Sanz <mespinsanz@gmail.com>",
 	"main": "main.js",
 	"scripts": {
 		"watch": "gvsdk --entry package.json --target plugin --mode dev",

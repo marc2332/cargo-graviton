@@ -1,7 +1,29 @@
-Cargo support for Graviton Editor.
+## 🦀 Cargo Graviton
 
-What does it?
+Thing it allows to:
+* Inspect Cargo.toml files from Graviton.
 
-* Allows you to inspect the Cargo.toml structure right from Graviton
+WIP, Contributions / suggestions are welcomed.
 
-WIP
+## Developing
+Clone the repo to the desired .graviton2/plugins:
+```shell
+git clone https://github.com/marc2332/cargo-graviton.git 
+```
+
+Install dependencies:
+```shell
+npm install
+```
+
+Run locally:
+```shell
+npm run watch
+```
+
+Build (optional):
+```shell
+npm run build
+```
+
+Made by Marc Espín Sanz.
