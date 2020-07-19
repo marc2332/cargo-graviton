@@ -1,6 +1,6 @@
 {
 	"name": "Cargo",
-	"version":"1.0.0",
+	"version": "1.0.0",
 	"id": "cargo-plugin",
 	"mainSrc": "main.js",
 	"mainDev": "dist/main.js",
@@ -11,6 +11,7 @@
 		"build": "gvsdk --entry package.json --target plugin --mode release"
 	},
 	"dependencies": {
+		"lodash": "^4.17.19",
 		"toml": "^3.0.0"
 	},
 	"devDependencies": {
