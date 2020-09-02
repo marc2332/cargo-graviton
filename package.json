@@ -2,19 +2,19 @@
 	"name": "Cargo",
 	"version": "1.0.0",
 	"id": "cargo-plugin",
-	"mainSrc": "main.js",
-	"mainDev": "dist/main.js",
+	"mainSrc": "src/index.ts",
+	"mainDev": "dist/index.js",
 	"author": "Marc Espín Sanz",
-	"main": "main.js",
+	"main": "index.js",
 	"scripts": {
-		"watch": "gvsdk --entry package.json --target plugin --mode dev",
-		"build": "gvsdk --entry package.json --target plugin --mode release"
+		"watch": "gvsdk -p . -t plugin -m dev",
+		"build": "gvsdk -p . -t plugin -m release"
 	},
 	"dependencies": {
 		"lodash": "^4.17.19",
 		"toml": "^3.0.0"
 	},
 	"devDependencies": {
-		"@gveditor/sdk": "^0.2.2"
+		"@gveditor/sdk": "^0.3.7"
 	}
 }
