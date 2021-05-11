@@ -11,7 +11,7 @@
 		"build": "gvsdk -p . -t plugin -m release"
 	},
 	"dependencies": {
-		"lodash": "^4.17.19",
+		"lodash": "^4.17.21",
 		"toml": "^3.0.0"
 	},
 	"devDependencies": {
